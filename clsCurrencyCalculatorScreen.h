@@ -88,7 +88,7 @@ public:
         {
             system("cls");
 
-            _DrawScreenHeader("\tUpdate Currency Screen");
+            _DrawScreenHeader("\tCurrency Calculator Screen");
 
             clsCurrency CurrencyFrom = _GetCurrency("\nPlease Enter Currency1 Code: ");
             clsCurrency CurrencyTo = _GetCurrency("\nPlease Enter Currency2 Code: ");
